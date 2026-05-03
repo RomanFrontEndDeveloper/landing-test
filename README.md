@@ -2,12 +2,16 @@
 
 Responsive landing page built with Next.js and Tailwind CSS based on a Figma design.
 
+## 🚀 Live Demo
+
+https://landing-test-hazel.vercel.app/
+
 ## Completed Levels
 
 - Layout: pixel-perfect implementation (Header, Hero, Testimonials, Footer)
-- Responsiveness: адаптація під mobile / tablet / desktop (включаючи <768px та <550px)
-- Navigation: багатосторінковість (Home `/`, Contact `/contact`)
-- UI: мобільне меню (burger) з анімацією, hover ефекти, перевикористовувані компоненти
+- Responsiveness: mobile / tablet / desktop (including <768px and <550px)
+- Navigation: multi-page setup (Home `/`, Contact `/contact`)
+- UI: mobile menu (burger) with animation, hover effects, reusable components
 
 ## Tech Stack
 
@@ -21,14 +25,13 @@ Responsive landing page built with Next.js and Tailwind CSS based on a Figma des
 npm install
 npm run dev
 
-```
-
-Open in browser: http://localhost:3000
+Open: http://localhost:3000
 
 Build
 npm run build
 npm start
 Notes
-Layout реалізовано відповідно до Figma
-Використано Tailwind breakpoints для адаптиву
-Без сторонніх UI бібліотек (чистий Tailwind)
+Pixel-perfect implementation based on Figma
+Responsive layout using Tailwind breakpoints
+No external UI libraries (pure Tailwind)
+```
