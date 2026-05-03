@@ -15,24 +15,33 @@ export const Header = () => {
 				<nav className='hidden md:flex items-center gap-8 h-[52px]'>
 					<a
 						href='#'
-						className='text-[20px] leading-[30px] font-medium'
+						className='text-[20px] leading-[30px] font-medium  inline-block
+              transition-transform duration-200 
+              hover:scale-105'
 					>
 						Page
 					</a>
 					<a
 						href='#'
-						className='text-[20px] leading-[30px] font-medium'
+						className='text-[20px] leading-[30px] font-medium  inline-block
+              transition-transform duration-200 
+              hover:scale-105'
 					>
 						Page
 					</a>
 					<a
 						href='#'
-						className='text-[20px] leading-[30px] font-medium'
+						className='text-[20px] leading-[30px] font-medium  inline-block
+              transition-transform duration-200 
+              hover:scale-105'
 					>
 						Page
 					</a>
 
-					<button className='h-[52px] px-6 bg-black text-white rounded-md'>
+					<button
+						className='h-[52px] px-6 bg-black text-white rounded-md  hover:bg-zinc-800 active:bg-zinc-900 
+  transition-colors duration-200'
+					>
 						Send form
 					</button>
 				</nav>
