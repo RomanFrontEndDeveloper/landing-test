@@ -34,6 +34,113 @@ export default function Home() {
 						/>
 					</div>
 				</section>
+
+				{/* 3CARDS */}
+				<section className='w-full max-w-[1280px] mx-auto pt-[7px] md:pt-[40px] pb-[120px]'>
+					{/* Heading */}
+					<div className='max-w-[733px] text-left'>
+						<h2 className='text-[40px] leading-[110%] font-semibold'>
+							Heading
+						</h2>
+
+						<p className='mt-[8px] text-[24px] leading-[150%] font-normal text-gray-500 text-left max-w-[625px]'>
+							Subheading to introduce testimonials
+						</p>
+					</div>
+
+					{/* Cards */}
+					<div className='mt-[48px] md:mt-[32px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px]'>
+						{/* Card1 */}
+						<div
+							className='h-[192px] p-[24px] rounded-[12px] border border-[#F7F7F7] bg-white 
+                shadow-[-4px_8px_20px_rgba(0,0,0,0.1)] 
+                hover:shadow-[-6px_12px_28px_rgba(0,0,0,0.15)] 
+                hover:-translate-y-[4px] 
+                transition-all duration-300'
+						>
+							<p className='text-[20px] leading-[150%] font-medium text-left'>
+								“A terrific piece of praise”
+							</p>
+
+							<div className='mt-[48px] flex items-center'>
+								<img
+									src='/avatar1.png'
+									alt='avatar'
+									className='w-[45px] h-[45px] rounded-full object-cover'
+								/>
+
+								<div className='ml-[12px]'>
+									<p className='text-[16px] font-medium text-left leading-[24px]'>
+										Name
+									</p>
+									<p className='text-[14px] text-gray-500 leading-[21px] text-left'>
+										Description
+									</p>
+								</div>
+							</div>
+						</div>
+
+						{/* Card 2 */}
+						<div
+							className='h-[192px] p-[24px] rounded-[12px] border border-[#F7F7F7] bg-white 
+                shadow-[-4px_8px_20px_rgba(0,0,0,0.1)] 
+                hover:shadow-[-6px_12px_28px_rgba(0,0,0,0.15)] 
+                hover:-translate-y-[4px] 
+                transition-all duration-300'
+						>
+							<p className='text-[20px] leading-[150%] font-medium text-left'>
+								“A fantastic bit of feedback”
+							</p>
+
+							<div className='mt-[48px] flex items-center'>
+								<img
+									src='/avatar2.png'
+									alt='avatar'
+									className='w-[45px] h-[45px] rounded-full object-cover'
+								/>
+
+								<div className='ml-[12px]'>
+									<p className='text-[16px] font-medium text-left leading-[24px]'>
+										Name
+									</p>
+									<p className='text-[14px] text-gray-500 leading-[21px] text-left'>
+										Description
+									</p>
+								</div>
+							</div>
+						</div>
+
+						{/* Card 3 */}
+						<div
+							className='h-[192px] p-[24px] rounded-[12px] border border-[#F7F7F7] bg-white 
+                shadow-[-4px_8px_20px_rgba(0,0,0,0.1)] 
+                hover:shadow-[-6px_12px_28px_rgba(0,0,0,0.15)] 
+                hover:-translate-y-[4px] 
+                transition-all duration-300'
+						>
+							<p className='text-[20px] leading-[150%] font-medium text-left'>
+								“A genuinely glowing review”
+							</p>
+
+							<div className='mt-[48px] flex items-center'>
+								<img
+									src='/avatar3.png'
+									alt='avatar'
+									className='w-[45px] h-[45px] rounded-full object-cover'
+								/>
+
+								<div className='ml-[12px]'>
+									<p className='text-[16px] font-medium text-left leading-[24px]'>
+										Name
+									</p>
+									<p className='text-[14px] text-gray-500 leading-[21px] text-left'>
+										Description
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
 		</div>
 	);
