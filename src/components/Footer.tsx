@@ -16,25 +16,29 @@ export const Footer = () => {
 							<img
 								src='/facebook.png'
 								className='w-[24px] h-[24px] cursor-pointer 
-                  hover:brightness-75 
+                hover:shadow-[0_4px_12px_rgba(0,0,0,0.25)] 
+                  transition-all
                   transition duration-200'
 							/>
 							<img
 								src='/linked.png'
 								className='w-[24px] h-[24px] cursor-pointer 
-                  hover:brightness-75 
+                  hover:shadow-[0_4px_12px_rgba(0,0,0,0.25)] 
+                  transition-all 
                   transition duration-200'
 							/>
 							<img
 								src='/youtube.png'
 								className='w-[24px] h-[24px] cursor-pointer 
-                  hover:brightness-75 
+                  hover:shadow-[0_4px_12px_rgba(0,0,0,0.25)] 
+                  transition-all 
                   transition duration-200'
 							/>
 							<img
 								src='/insta.png'
 								className='w-[24px] h-[24px] cursor-pointer 
-                  hover:brightness-75 
+                hover:shadow-[0_4px_12px_rgba(0,0,0,0.25)] 
+                  transition-all
                   transition duration-200                '
 							/>
 						</div>

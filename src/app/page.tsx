@@ -56,7 +56,7 @@ export default function Home() {
 							className='h-[192px] p-[24px] rounded-[12px] border border-[#F7F7F7] bg-white 
                 shadow-[-4px_8px_20px_rgba(0,0,0,0.1)] 
                 hover:shadow-[-6px_12px_28px_rgba(0,0,0,0.15)] 
-                hover:-translate-y-[4px] 
+                hover:scale-105 
                 transition-all duration-300'
 						>
 							<p className='text-[20px] leading-[150%] font-medium text-left'>
@@ -86,7 +86,7 @@ export default function Home() {
 							className='h-[192px] p-[24px] rounded-[12px] border border-[#F7F7F7] bg-white 
                 shadow-[-4px_8px_20px_rgba(0,0,0,0.1)] 
                 hover:shadow-[-6px_12px_28px_rgba(0,0,0,0.15)] 
-                hover:-translate-y-[4px] 
+                hover:scale-105 
                 transition-all duration-300'
 						>
 							<p className='text-[20px] leading-[150%] font-medium text-left'>
@@ -116,7 +116,7 @@ export default function Home() {
 							className='h-[192px] p-[24px] rounded-[12px] border border-[#F7F7F7] bg-white 
                 shadow-[-4px_8px_20px_rgba(0,0,0,0.1)] 
                 hover:shadow-[-6px_12px_28px_rgba(0,0,0,0.15)] 
-                hover:-translate-y-[4px] 
+                hover:scale-105
                 transition-all duration-300'
 						>
 							<p className='text-[20px] leading-[150%] font-medium text-left'>
