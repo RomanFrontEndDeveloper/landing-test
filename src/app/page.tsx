@@ -1,12 +1,9 @@
 import Image from 'next/image';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
+import Link from 'next/link';
 
 export default function Home() {
 	return (
 		<div className='flex flex-col min-h-screen bg-zinc-100'>
-			<Header />
-
 			<main className='flex flex-col items-center text-center max-[1380px]:px-[40px]'>
 				{/* HERO */}
 				<section className='max-w-[857px] w-full pt-[110px] pb-[80px] flex flex-col items-center'>
@@ -18,9 +15,11 @@ export default function Home() {
 						And a subheading describing your site, too
 					</p>
 
-					<button className='mt-[24px] px-[24px] py-[14px] bg-black text-white rounded-[8px] hover:opacity-80 transition'>
-						Send form
-					</button>
+					<Link href='/contact'>
+						<button className='mt-[24px] px-[24px] py-[14px] bg-black text-white rounded-[8px] hover:opacity-80 transition'>
+							Send form
+						</button>
+					</Link>
 				</section>
 
 				{/* IMAGE */}
@@ -143,8 +142,6 @@ export default function Home() {
 					</div>
 				</section>
 			</main>
-
-			<Footer />
 		</div>
 	);
 }
