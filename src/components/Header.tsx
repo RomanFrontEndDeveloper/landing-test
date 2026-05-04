@@ -8,7 +8,7 @@ export const Header = () => {
 
 	return (
 		<header className='w-full'>
-			<div className='max-w-[1280px] mx-auto px-[80px] md:px-6 lg:px-8 flex justify-between h-[164px] items-center'>
+			<div className='max-w-[1280px] mx-auto px-[80px] md:px-6 lg:px-8 flex justify-between h-[164px] items-center max-[550px]:px-[20px] max-[550px]:h-[124px]'>
 				<Link href='/' className='block'>
 					<div className='text-[20px] leading-[30px] font-medium'>
 						Site name
@@ -42,8 +42,8 @@ export const Header = () => {
 					<Link
 						href='/contact'
 						className='inline-flex items-center justify-center h-[52px] px-6 bg-black text-white rounded-md 
-  hover:bg-zinc-800 active:bg-zinc-900 
-  transition-colors duration-200'
+              hover:bg-zinc-800 active:bg-zinc-900 
+              transition-colors duration-200'
 					>
 						Send form
 					</Link>
@@ -65,7 +65,7 @@ export const Header = () => {
           ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full         pointer-events-none'}`}
 			>
 				{/* TOP */}
-				<div className='flex justify-between items-center px-[80px] h-[164px] shrink-0'>
+				<div className='flex justify-between items-center px-[80px] h-[164px] max-[550px]:px-[20px] max-[550px]:h-[124px] shrink-0'>
 					<div className='text-[20px] leading-[30px] font-medium'>
 						Site name
 					</div>
